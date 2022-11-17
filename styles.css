@@ -3,7 +3,7 @@ body {
 }
 
 .Erysium-background-image {
-  background-image: url("/images/blue_sky.png");
+  background-image: url("images/blue_sky.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@ body {
 }
 
 .Erysium-character-background-image {
-  background-image: url("/images/character_stage.jpg");
+  background-image: url("images/character_stage.jpg");
   z-index: 0;
   background-position: center;
   background-repeat: no-repeat;
