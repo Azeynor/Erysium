@@ -1,0 +1,250 @@
+
+body{
+    margin: 0;
+  }
+  
+  .Erysium-background-image {
+    background-image: url("/images/blue_sky.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .erysium-logo{
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3%;
+    margin-left: 35%;
+  }
+
+  .nav-link{
+  margin: 1px 80px;
+  font-size: 1.2rem;
+  }
+
+  .Erysium-character-background-image{
+    background-image: url("/images/character_stage.jpg");
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  #heros{
+    z-index: 2;
+    width: 250px;
+    height: 600px;
+    position: absolute;
+    margin-top: -43%;
+    margin-left: 27%;
+  }
+  
+  .black_panel{
+    z-index: 1;
+    width: 450px;
+    height: 570px;
+    background-color: rgb(66, 65, 65);
+    position: absolute;
+    margin-top: -43%;
+    margin-left: 44%;
+    border-radius: 5%;
+    border: 5px solid rgb(221, 208, 19);
+    color: aliceblue;
+    padding: 15px;
+  }
+  
+  .heros-skills{
+    margin: 20px 0px;
+  }
+
+  .heros-skills p{
+    margin: 5px 0px;
+  }
+  
+  .heros-gender{
+    padding: 15px 0px;
+  }
+  
+  .heros-button{
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 5rem;
+  }
+
+
+  /* Media Queries for phones*/
+  @media (max-width:420px) {
+  
+    .Erysium-background-image {
+      height: 120px;
+    }
+
+    .erysium-logo{
+        width: 250px;
+        margin-top: 2%;
+        margin-left: 20%;
+      }
+
+    .Erysium-character-background-image{
+      height: 660px;
+    }
+
+    #heros{
+        width: 120px;
+        height: 300px;
+        margin-top: -130%;
+        margin-left: 8%;
+    
+    }
+
+    .black_panel{
+        width: 190px;
+        height: 360px;
+        margin-top: -150%;
+        margin-left: 40%;
+        font-size: 0.7rem;
+      }
+    
+    .heros-skills{
+        margin: 11px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .heros-skills p{
+        margin: 1px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+
+    .heros-gender{
+        padding: 12px 0px;
+      }
+      
+    .heros-button{
+        padding: 6px 3px;
+        width: 4rem;
+    }
+
+  }
+  
+  /* Media Queries for big phones*/
+  @media only screen and (max-width: 767px) and (min-width: 421px) {
+    .Erysium-background-image {
+        height: 120px;
+      }
+  
+      .erysium-logo{
+          width: 270px;
+          margin-top: 1%;
+          margin-left: 25%;
+        }
+  
+      .Erysium-character-background-image{
+        height: 670px;
+      }
+  
+      #heros{
+          width: 120px;
+          height: 300px;
+          margin-top: -80%;
+          margin-left: 20%;
+      
+      }
+  
+      .black_panel{
+          width: 190px;
+          height: 360px;
+          margin-top: -92%;
+          margin-left: 45%;
+          font-size: 0.7rem;
+        }
+      
+      .heros-skills{
+          margin: 11px 0px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+      }
+  
+      .heros-skills p{
+          margin: 1px;
+          display: flex;
+          flex-direction: column;
+          flex-basis: 100%;
+          flex: 1;
+      }
+  
+      .heros-gender{
+          padding: 12px 0px;
+        }
+        
+      .heros-button{
+          padding: 6px 3px;
+          width: 4rem;
+      }
+  }
+
+
+  /* Media Queries for tablet*/
+  
+  @media only screen and (max-width: 912px) and (min-width: 768px) {
+    
+    .Erysium-background-image {
+      height: 170px;
+    }
+  
+    .Erysium-character-background-image{
+      height: 950px;
+    }
+
+    .erysium-logo{
+        width: 400px;
+        z-index: 1;
+        margin-top: -3%;
+        margin-left: 30%;
+    }
+
+    #heros{
+        z-index: 2;
+        width: 150px;
+        height: 400px;
+        position: absolute;
+        margin-top: -77%;
+        margin-left: 25%;
+    }
+      
+    .black_panel{
+        width: 220px;
+        height: 450px;
+        margin-top: -85%;
+        margin-left: 45%;
+        font-size: 0.7rem;
+    }
+  }
+  
+  
+  /* Media Queries for desktop*/
+  @media only screen and (min-width: 913px) {
+    
+    .Erysium-background-image {
+      height: 450px;
+    }
+  
+    .Erysium-character-background-image{
+      height: 1100px;
+    }
+  }
